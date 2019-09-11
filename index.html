@@ -2,21 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/CSS/style.css">
-    <title>Gif gif gif</title>
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="assets/CSS/style.css" />
+    <title>Gif Generator</title>
 </head>
 
 <body>
-    <header></header>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand mx-auto" href="#">
+                Gif Generator
+            </a>
+        </nav>
+    </header>
+    <br><br>
+    <div class="container border rounded bg-dark">
+        <!-- buttons space -->
+        <div class="row h-25">
+            <div class="col-md-2 m-5">
+                <input type="text" class="form-control" placeholder="type an animal">
+                <br>
+                <button type=" button" class="btn btn-success">Add</button>
+            </div>
+            <div id="buttons-show-here" class="m-5">
+                <button type=" button" class="btn btn-secondary">Cat</button>
+                <button type=" button" class="btn btn-secondary">Dog</button>
+                <button type=" button" class="btn btn-secondary">Rabbit</button>
+                <button type=" button" class="btn btn-secondary">Cow</button>
+            </div>
+        </div>
 
+        <!-- gifs space -->
+        <div id="gifs-show-here" class="row h-75 m-5">
 
-    <footer></footer>
-
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="assets/Javascript/gif.js"></script>
 </body>
+
 </html>
