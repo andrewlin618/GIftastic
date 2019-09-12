@@ -1,7 +1,7 @@
 .container{
-    height : 80vh;
+    min-height : 80vh;
     opacity: 0.8;
 }
-img{
+img,input,h5,button{
     margin: 1vh;
 }
